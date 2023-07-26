@@ -41,31 +41,32 @@ const AboutMeSection = () => {
               withUnderline
               href={EXTERNAL_LINKS.FIGMA}
             >
-              self-proclaimed designer
+               Linux System Administrator
             </Link>{' '}
-            who specializes in full stack development (React.js & Node.js). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me.
+           
+
+            I'm a passionate Linux Administrator / DevOps professional with 
+            expertise in managing infrastructure, configuring servers, automating deployments, 
+            and ensuring smooth operations. I am enthusiastic about bringing efficiency to system 
+            administration and streamlining development workflows. User experience, automation, and 
+            maintaining highly reliable and scalable systems matter to me.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2015, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs,
-            Tailwindcss, Supabase and much more.
+          As an IT Refresh Tech, I began my journey in the IT field about 1 year ago. Over this time, I have 
+          gained expertise in Linux, AWS, Docker, Ansible, Kubernetes, Terraform, Jenkins, Python scripting, 
+          and other cloud-related technologies. I have successfully completed several cloud projects, focusing on CI/CD and container deployment.
+         Now, I am actively seeking opportunities to grow within a company and evolve as a Linux Admin or Cloud Admin. 
+         My passion for cloud administration drives me to continually learn and excel, making me a valuable asset to any organization. 
+         Let's join forces and create a successful future in the world of cloud computing!
           </Typography>
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
+            I am very much a progressive thinker, integrating development and operations seamlessly. 
+            Focused on robust, automated, and scalable solutions.
           </Typography>
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
-            journey of early startups or enjoying some free time. You can follow
-            me on{' '}
+          When I'm not in full-on DevOps Engineer / Linux Admin mode, you can find me playing soccer or 
+          immersing myself in creating exciting cloud projects. I enjoy witnessing the journey of early 
+          startups and making the most of my free time. {' '}
             <Link
               noCustomization
               externalLink
@@ -86,23 +87,7 @@ const AboutMeSection = () => {
             </Link>
             .
           </Typography>
-          <Typography>Finally, some quick bits about me.</Typography>
-          <div className="flex flex-col gap-2 md:flex-row md:gap-6">
-            <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">
-                B.E. in Computer Engineering
-              </Typography>
-              <Typography component="li">Full time freelancer</Typography>
-            </ul>
-            <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
-            </ul>
-          </div>
-          <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
-          </Typography>
+         
         </div>
       </div>
     </Container>

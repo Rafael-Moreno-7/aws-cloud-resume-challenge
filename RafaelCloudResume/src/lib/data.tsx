@@ -42,12 +42,9 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+  GITHUB: 'https://github.com/Rafael-Moreno-7?tab=repositories',
+  GITHUB_REPO: 'https://github.com/Rafael-Moreno-7/aws-cloud-resume-challenge',
+  TWITTER: 'https://twitter.com/RevMeno',
 };
 
 export const NAV_LINKS = [
@@ -72,15 +69,11 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/Rafael-Moreno-7',
   },
   {
     icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
-  },
-  {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    url: 'https://twitter.com/RevMeno',
   },
 ];
 
