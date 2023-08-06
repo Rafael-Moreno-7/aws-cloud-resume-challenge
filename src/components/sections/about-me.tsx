@@ -39,15 +39,15 @@ const AboutMeSection = () => {
            My role included upgrading hardware/software and swiftly troubleshooting.
           </Typography>
           <Typography>
-          I've honed expertise in advanced areas like Linux, AWS, Docker, Ansible, 
+          I&aposve honed expertise in advanced areas like Linux, AWS, Docker, Ansible, 
           Kubernetes, Terraform, Jenkins, and Python through immersive projects, 
-          certifications, and academics. Notably, I've succeeded in enhancing cloud projects, 
+          certifications, and academics. Notably, I&aposve succeeded in enhancing cloud projects, 
           CI/CD, and Linux server management. Seeking to advance as a Cloud/DevOps Engineer, 
           my passion positions me as an invaluable asset for growth.
           </Typography>
           <Typography>
             Outside of my Cloud pursuits, you can catch me at the gym or indulging in casual YouTube browsing. 
-            Equally, I'm captivated by the advancement of AI and its potential to shape our systems and society,  
+            Equally, I&aposm captivated by the advancement of AI and its potential to shape our systems and society,  
             and maximize my free time accordingly. For more insights,
             you can follow 
             me on{' '}
