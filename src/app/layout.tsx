@@ -9,10 +9,10 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Rafael Moreno | Linux Administrator';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://sagarshah.dev';
+  'A skilled IT professional experienced in Linux system administration, cloud computing (AWS, Azure), and DevOps practices.';
+const url = 'https://resume.rafaelcloud.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),

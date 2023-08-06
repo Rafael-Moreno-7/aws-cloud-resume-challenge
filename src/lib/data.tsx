@@ -1,28 +1,26 @@
 import { Github, Twitter, Figma } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
+import LogoTypescript from '/public/images/logos/icon-python.svg';
+import LogoReact from '/public/images/logos/icon-aws.svg';
+import LogoNextjs from '/public/images/logos/icon-kubernetes.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
+import LogoExpress from '/public/images/logos/icon-ansible.svg';
+import LogoExpressLight from '/public/images/logos/icon-ansible-light.svg';
+import LogoNest from '/public/images/logos/icon-docker.svg';
+import LogoSocket from '/public/images/logos/icon-github.svg';
+import LogoSocketLight from '/public/images/logos/icon-github-light.svg';
+import LogoPostgreSQL from '/public/images/logos/icon-graylog.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
+import LogoSass from '/public/images/icon-grafana.svg';
+import LogoTailwindcss from '/public/images/logos/icon-centos.svg';
+import LogoFigma from '/public/images/logos/icon-jenkins.svg';
+import LogoCypress from '/public/images/logos/icon-chef.svg';
+import LogoStorybook from '/public/images/logos/icon-terraform.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
+import LogoUpwork from '/public/images/logos/icon-kaiser.png';
+import LogoGreenApex from '/public/images/logos/icon-trinuscorp.png';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
@@ -42,12 +40,12 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  GITHUB: 'https://github.com/Rafael-Moreno-7',
+  GITHUB_REPO: 'https://github.com/Rafael-Moreno-7/aws-cloud-resume-challenge',
+  TWITTER: 'https://twitter.com/RevMeno',
+  FIGMA: 'https://www.figma.com/',
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    'https://www.figma.com/',
 };
 
 export const NAV_LINKS = [
@@ -72,15 +70,15 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/Rafael-Moreno-7',
   },
   {
     icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
+    url: 'https://twitter.com/RevMeno',
   },
   {
     icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    url: 'https://www.figma.com',
   },
 ];
 
@@ -91,19 +89,19 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
-    label: 'Typescript',
+    label: 'Python',
     logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
+    url: 'https://www.python.org/',
   },
   {
-    label: 'React',
+    label: 'Aws',
     logo: LogoReact,
-    url: 'https://react.dev/',
+    url: 'https://aws.amazon.com/',
   },
   {
-    label: 'Next.js',
+    label: 'Kubernetes',
     logo: LogoNextjs,
-    url: 'https://nextjs.org/',
+    url: 'https://kubernetes.io/',
   },
   {
     label: 'Node.js',
@@ -111,24 +109,24 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://nodejs.org/en',
   },
   {
-    label: 'Express.js',
+    label: 'Ansible',
     logo: LogoExpress,
     darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
+    url: 'https://www.ansible.com/',
   },
   {
-    label: 'Nest.js',
+    label: 'Docker',
     logo: LogoNest,
-    url: 'https://nestjs.com/',
+    url: 'https://www.docker.com/',
   },
   {
-    label: 'Socket.io',
+    label: 'Github',
     logo: LogoSocket,
     darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
+    url: 'https://github.com/',
   },
   {
-    label: 'PostgreSQL',
+    label: 'Graylog',
     logo: LogoPostgreSQL,
     url: 'https://www.postgresql.org/',
   },
@@ -138,30 +136,29 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.mongodb.com/',
   },
   {
-    label: 'Sass/Scss',
+    label: 'Grafana',
     logo: LogoSass,
-    url: 'https://sass-lang.com/',
+    url: 'https://grafana.com/',
   },
   {
-    label: 'Tailwindcss',
+    label: 'Centos',
     logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
+    url: 'https://www.centos.org/',
   },
   {
-    label: 'Figma',
+    label: 'Jenkins',
     logo: LogoFigma,
-    url: 'https://www.figma.com/',
+    url: 'https://www.jenkins.io/',
   },
   {
-    label: 'Cypress',
+    label: 'Chef',
     logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
+    url: 'https://www.chef.io/',
   },
   {
-    label: 'Storybook',
+    label: 'Terraform',
     logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
+    url: 'https://www.terraform.io/',
   },
   {
     label: 'Git',
@@ -174,37 +171,26 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoUpwork,
     logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    position: 'IT Refresh Technician',
+    startDate: new Date(2022, 9),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Executed hardware and software installations, upgrades, and migrations for clients, ensuring seamless IT system transitions.',
+      'Conducted troubleshooting and provided technical support to resolve hardware and software issues.',
+      'Documented and maintained accurate inventory records for hardware and software assets.',
     ],
   },
   {
     logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
     logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    position: 'IT Helpdesk Intern',
+    startDate: new Date(2022, 8),
+    endDate: new Date(2022, 9),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      'Provide friendly and timely technical support to users through various channels, helping them troubleshoot and resolve issues.',
+      'Manage and document user requests in the helpdesk system, ensuring prompt resolution and proper escalation if needed.',
+      'Contribute to the helpdesks knowledge base by creating helpful resources to assist users in resolving common problems..',
     ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];
 
@@ -268,24 +254,24 @@ export const PROJECTS: ProjectDetails[] = [
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
+    personName: 'Ray Luna',
     personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
+    title: 'Senior Desktop Support - Kaiser Permanente',
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Rafael to all, he is a fast learner.',
   },
   {
-    personName: 'Eugen Esanu',
+    personName: 'Kevin Xiong',
     personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    title: 'IT Refresh Tech - Kaiser Permanente',
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      'Great guy, highly recommended for any Systems automation job! His skills are top-notch and he will be an amazing addition to any team.',
   },
   {
-    personName: 'Joe Matkin',
+    personName: 'Isaiah Romero',
     personAvatar: AvatarDummy,
-    title: 'Freelancer',
+    title: 'IT Enthusiast',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+    'Rafael was extremely easy and pleasant to work with and he truly cares about the project being a success. Would love to work with him again!',
   },
 ];

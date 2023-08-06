@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import SagarFullPose from '/public/images/sagar-full-pose.jpg';
+import SagarFullPose from '/public/images/space.jpg';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
@@ -34,29 +34,22 @@ const AboutMeSection = () => {
             Curious about me? Here you have it:
           </Typography>
           <Typography>
-            I&apos;m a passionate Linux Administrator / DevOps professional with 
-            expertise in managing infrastructure, configuring servers, automating deployments, 
-            and ensuring smooth operations. I am enthusiastic about bringing efficiency to system 
-            administration and streamlining development workflows. User experience, automation, and 
-            maintaining highly reliable and scalable systems matter to me.
+          A year ago, I launched my IT journey as an IT Refresh Tech at Kaiser Permanente.
+           Our Fresno-based Refresh Program consistently outperformed nationwide. 
+           My role included upgrading hardware/software and swiftly troubleshooting.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2015, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs,
-            Tailwindcss, Supabase and much more.
+          I've honed expertise in advanced areas like Linux, AWS, Docker, Ansible, 
+          Kubernetes, Terraform, Jenkins, and Python through immersive projects, 
+          certifications, and academics. Notably, I've succeeded in enhancing cloud projects, 
+          CI/CD, and Linux server management. Seeking to advance as a Cloud/DevOps Engineer, 
+          my passion positions me as an invaluable asset for growth.
           </Typography>
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
-          </Typography>
-          <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
-            journey of early startups or enjoying some free time. You can follow
+            Outside of my Cloud pursuits, you can catch me at the gym or indulging in casual YouTube browsing. 
+            Equally, I'm captivated by the advancement of AI and its potential to shape our systems and society,  
+            and maximize my free time accordingly. For more insights,
+            you can follow 
             me on{' '}
             <Link
               noCustomization
@@ -66,7 +59,7 @@ const AboutMeSection = () => {
             >
               Twitter
             </Link>{' '}
-            where I share tech-related bites and build in public, or you can
+            where I share tech-related bites, or you can
             follow me on{' '}
             <Link
               noCustomization
@@ -82,19 +75,15 @@ const AboutMeSection = () => {
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                B.E. in Computer Engineering
+                B.E. in Cloud Computing 
               </Typography>
-              <Typography component="li">Full time freelancer</Typography>
+              <Typography component="li">Full time IT Tech</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
+              <Typography component="li">Aspiring Aws Community Cloud Builder</Typography>
             </ul>
           </div>
-          <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
-          </Typography>
         </div>
       </div>
     </Container>
