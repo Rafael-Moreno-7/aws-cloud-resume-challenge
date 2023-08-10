@@ -28,8 +28,8 @@ import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
+import AvatarKrisztian from '/public/images/logos/image-ray.png';
+import AvatarEugen from '/public/images/logos/image-kev.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import {
