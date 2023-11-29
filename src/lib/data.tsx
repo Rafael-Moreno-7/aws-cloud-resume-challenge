@@ -86,7 +86,7 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Javascript',
     logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: 'https://www.javascript.com/',
   },
   {
     label: 'Python',
@@ -128,7 +128,7 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Graylog',
     logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
+    url: 'https://graylog.org/',
   },
   {
     label: 'MongoDB',
